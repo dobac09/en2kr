@@ -25,7 +25,7 @@
 - https://www.kickstarter.com/
 - https://www.indiegogo.com/
 - https://www.youtube.com/c/cnlohr
--https://www.youtube.com/user/shiffman/
+- https://www.youtube.com/user/shiffman/
 
 ----
 
