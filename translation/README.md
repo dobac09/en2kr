@@ -17,7 +17,7 @@
 ----
 
 ###대상 원본 : 
--http://hackaday.com/blog/
+-[hackada 블로그 포스트](http://hackaday.com/blog/)
 -https://hackaday.io/
 -http://www.visualisingdata.com/blog/
 -https://bost.ocks.org/mike/
