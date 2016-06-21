@@ -4,6 +4,7 @@
 -유튜브 자막
 
 ----
+
 ##주제 분류 :
 -피지컬 컴퓨팅
 -피지컬 컴퓨팅 프로젝트
@@ -14,6 +15,7 @@
 -제조
 
 ----
+
 ##대상 원본 : 
 -http://hackaday.com/blog/
 -https://hackaday.io/
@@ -26,6 +28,7 @@
 -https://www.youtube.com/user/shiffman/
 
 ----
+
 ##작성 형식 :
 -원문 링크
 -원문 텍스트
