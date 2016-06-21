@@ -1,24 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>번역</title>
-    <style>
-    body {padding: 0; margin: 0;} canvas {vertical-align: top;} 
-    
-    
-    
-    
-    
-    </style>
-  </head>
-  
-  <body>
-    
-    
-    
-    
+<head>
+  <meta charset="UTF-8">
+  <title>번역목록</title>
+  <style>
+body {
+  background-color: white;
+}
 
-    
-  </body>
+fieldset {
+  border: 1px solid #002525;
+  margin: 1ex 1% 1ex 1%;rgb(199, 90, 101);
+  background-color: #dcfadf;
+}
+
+fieldset:hover {
+  background-color: white;
+}
+
+legend {
+  background-color: white;
+  border: 1px solid #003030;
+  padding: 0.8ex 2ex 0.8ex 2ex;
+  font-weight: bold;
+  color: black;
+}
+
+legend.finished {
+  border: 1px solid #002525;
+  margin: 1ex 1% 1ex 1%;rgb(199, 90, 101);
+  background-color: #63f471;
+}
+
+legend.onprogress {
+  border: 1px solid #002525;
+  margin: 1ex 1% 1ex 1%;rgb(199, 90, 101);
+  background-color: #f4dc63;
+}
+
+legend.wishlist {
+  border: 1px solid #002525;
+  margin: 1ex 1% 1ex 1%;rgb(199, 90, 101);
+  background-color: #f48e63;
+}
+
+a {
+  color: #1f5561;
+}
+
+a:hover {
+  color: #50a6ff;
+}
+
+a:visited {
+  color: #bb0797;
+}
+
+a:visited:hover {
+  color: grey;
+}
+
+a:active {
+  color: #FFFF90;
+}
+
+ul {
+  list-style-type: circle;
+  color: black;
+}
+
+li p {
+  color: #242424;
+}
+
+.d3:before
+{
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 18px;
+  position: relative;
+  top: 2px;
+  width: 24px;
+}
+
+.d3:before {
+  background-image: url(https://github.com/dobac09/en2kr/blob/gh-pages/d3js_logo.png?raw=true);
+  background-repeat: no-repeat;
+}
+
+</style>
+</head>
+
+<body>
+  <fieldset>
+    <legend class="finished">번역 완료</legend>
+    <ul>
+      <li><p><a href="https://github.com/dobac09/en2kr/blob/gh-pages/translation/README.md">번역</a></P>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend class="onprogress">번역 중</legend>
+    <ul>
+      <li><p><a href="https://github.com/dobac09/en2kr/blob/gh-pages/translation/README.md">번역</a></P>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend class="wishlist">번역 예정</legend>
+    <ul>
+      <li><p class="d3">Mike Bostock <a href="https://www.reddit.com/r/dataisbeautiful/comments/3k3if4/hi_im_mike_bostock_creator_of_d3js_and_a_former/?sort=new">reddit</a> d3 관련 질문답변</P>
+      <li><p><a href="https://vimeo.com/112319901">Eyeo 2014 - Mike Bostock</a> vimeo 영상 다운로드후 영상 자막</p>
+
+    </ul>
+  </fieldset>
+</body>
 </html>
