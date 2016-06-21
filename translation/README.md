@@ -17,8 +17,8 @@
 ----
 
 ###대상 원본 : 
--[hackada 블로그 포스트](http://hackaday.com/blog/)
--https://hackaday.io/
+-[hackaday.com 블로그 포스트](http://hackaday.com/blog/)
+-[hackaday.io 프로젝트](https://hackaday.io/)
 -http://www.visualisingdata.com/blog/
 -https://bost.ocks.org/mike/
 -http://lcamtuf.coredump.cx/
