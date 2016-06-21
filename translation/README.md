@@ -1,12 +1,12 @@
 
 ###형태 분류 :
--글 번역
--유튜브 자막
+- 글 번역
+- 유튜브 자막
 
 ----
 
 ###주제 분류 :
--피지컬 컴퓨팅
+- 피지컬 컴퓨팅
 - 피지컬 컴퓨팅 프로젝트
 - 데이터 시각화
 - 데이터 시각화 프로젝트
@@ -17,14 +17,14 @@
 ----
 
 ###대상 원본 : 
--[hackaday.com 블로그 포스트](http://hackaday.com/blog/)
--[hackaday.io 프로젝트](https://hackaday.io/)
--http://www.visualisingdata.com/blog/
--https://bost.ocks.org/mike/
--http://lcamtuf.coredump.cx/
--https://www.kickstarter.com/
--https://www.indiegogo.com/
--https://www.youtube.com/c/cnlohr
+- [hackaday.com 블로그 포스트](http://hackaday.com/blog/)
+- [hackaday.io 프로젝트](https://hackaday.io/)
+- http://www.visualisingdata.com/blog/
+- https://bost.ocks.org/mike/
+- http://lcamtuf.coredump.cx/
+- https://www.kickstarter.com/
+- https://www.indiegogo.com/
+- https://www.youtube.com/c/cnlohr
 -https://www.youtube.com/user/shiffman/
 
 ----
