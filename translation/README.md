@@ -20,6 +20,7 @@
 - [hackaday.com 블로그 포스트](http://hackaday.com/blog/)
 - [hackaday.io 프로젝트](https://hackaday.io/)
 - http://www.visualisingdata.com/blog/
+- http://flowingdata.com/category/guides/
 - https://bost.ocks.org/mike/
 - http://lcamtuf.coredump.cx/
 - https://www.kickstarter.com/
