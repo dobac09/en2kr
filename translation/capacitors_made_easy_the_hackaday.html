@@ -1,0 +1,487 @@
+<html>
+  <head>
+    <style>
+
+      body {
+
+      }
+
+      p {
+
+      }
+
+      p{
+        clear:both;
+      }
+
+      ul p, ol p {
+
+      }
+
+      ul, ol {
+
+      }
+
+      li {
+
+      }
+
+      ul li {
+
+      }
+
+      ol li {
+
+      }
+
+      h1 {
+
+      }
+
+      h2 {
+
+      }
+
+      h3, h4, h5 {
+
+      }
+
+      .voca {
+        color: rgb(255, 0, 0);
+      }
+
+      .sent {
+        color: rgb(205, 119, 18);
+      }
+
+      .source-eng {
+        color: rgb(121, 121, 121);
+      }
+
+      .figures {
+        float: left;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p><a href = "http://hackaday.com/2016/06/20/mosaic-palette-single-extruder-multi-color-and-multi-material-3d-printing/">source page</a></p>
+    <h1><p class="source-eng">CAPACITORS MADE EASY THE HACKADAY WAY</p></h1>
+    <h1><p class="trans-kor"> </p></h1>
+
+<img src="https://hackadaycom.files.wordpress.com/2016/06/capacitors.jpg?w=1200" alt="" originalw="800" width="800" height="250">
+
+    <p class="source-eng">
+        If you build electronic circuits on a regular basis the chances are you will have used capacitors many times. They are a standard component along with the resistor whose values are lifted off the shelf without a second thought. We use them for power supply smoothing and decoupling, DC blocking, timing circuits, and many more applications.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+    <p class="source-eng">
+        A capacitor though is not simply a blob with two wires emerging from it and a couple of parameters: working voltage and capacitance. There is a huge array of capacitor technologies and materials with different properties. And while almost any capacitor with the right value can do the job in most cases, you’ll find that knowing more about these different devices can help you make something that doesn’t just do the job, but does the best possible job. If you’ve ever had to chase a thermal stability problem or seek out the source of those extra dBs of noise for example you will appreciate this.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+<h2>BACK TO BASICS</h2>
+
+    <p class="source-eng">
+        It’s best to start with the basics, and describe capacitance from first principles before looking at real capacitors. An ideal capacitor consists of two conductive plates separated by a non-conductive dielectric. Charge can accumulate on the plates, but can not flow between them because of the insulating nature of the dielectric. Thus the capacitor can store the charge.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        Capacitance is measured in farads: a one farad capacitor maintains a voltage of one volt when it holds a coulomb of charge. A farad is like so many SI units, rather impractically sized, so outside the narrow realm of supercapacitors which are beyond the scope of this article you are more likely to encounter micro-, nano-, or picofarads. You can derive the capacitance of any given capacitor from its dimensions and the properties of its dielectric using a formula which it’s probably worth sending you to Wikipedia for if you are interested. You don’t need to memorise it unless you are studying for a high school physics exam, but it conceals one important point to take away. The capacitance is proportional to the dielectric constant εr of the dielectric being used, which has given rise to a wide variety of commercially available capacitors using different dielectric materials to achieve higher capacitance ranges or better voltage handling characteristics.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+    <p class="source-eng">
+        There is a snag to using dielectric materials in a capacitor, along with the desirable characteristics of a dielectric come a host of annoying side-effects. All real-world capacitors have internal parasitic resistance and inductance, and though tiny, they can sometimes have an effect on the capacitor’s operation. Dielectric constants can vary with temperature or voltage, piezoelectricity, or noise. Different types of capacitor can have alarming failure modes or even just be eye-wateringly expensive. And so we come to the main part of this piece, the section in which we’ll take you through some of the capacitor types you may encounter, and lay out for you their various properties both good and bad. We won’t claim to cover every possible capacitor technology, however we’ll run through the common capacitor technologies and examine any subtypes you may find.
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+<h2>ALUMINIUM ELECTROLYTIC</h2>
+
+    <p class="source-eng">
+        Aluminium electrolytic capacitors use an anodised oxide layer on an aluminium sheet that is one plate as their dielectric, and the electrolyte of the electrochemical cell that formed it as the other plate. Because they are an electrochemical cell they are polarised, in other words any DC potential across them must always be in the same direction with the anodised plate as the anode (!), or positive terminal.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        Practical electrolytic capacitors have their plates in the form of an aluminium foil sandwich rolled into a cylinder and housed in an aluminium can. They will have a quoted working voltage that depends on the depth of the anodised layer.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        Electrolytic capacitors have the highest capacitance of the types you will encounter in normal use, ranging from around 0.1 to many thousands of µF. Because of that tightly coiled electrochemical cell they have a high equivalent series inductance, so they are not suitable for use at high frequencies. You will typically find them used for power supply smoothing and decoupling, as well as for coupling at audio frequencies.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+<h2>TANTALUM ELECTROLYTIC</h2>
+
+    <p class="source-eng">
+        A tantalum electrolytic capacitor takes the form of a sintered tantalum anode with a very high surface area on which a thick oxide layer is grown and upon which a manganese dioxide electrolyte is applied as a cathode. The combination of high surface area and the dielectric properties of the tantalum oxide dielectric mean that a tantalum capacitor has a very high capacitance per unit volume, so a tantalum capacitor is much smaller than its corresponding aluminium electrolytic with the same capacitance. Like aluminium electrolytics, tantalum capacitors are polarised, the DC potential across them must always be in the same direction.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        Tantalum capacitors are available with values from around 0.1 to several hundred µF. They have a much lower leakage resistance and equivalent series resistance than their aluminium counterparts, so you will find them in test and measurement, high-end audio, and in other applications where those properties are advantageous.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        Tantalum capacitors have a failure mode to watch out for, they have a reputation for catching fire. Amorphous tantalum oxide is a good dielectric, while the crystaline form of tantalum oxide is a good conductor. Mistreatment of a tantalum capacitor by for instance applying too much inrush current to it can cause the dielectric to change from one form to the other, causing a huge increase in current through the capacitor. Happily not all the news is bad though, their reputation for fires came from a much earlier generation of tantalum capacitors, and improved manufacturing techniques have delivered a much more reliable product.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+<h2>TPOLYMER FILM</h2>
+
+    <p class="source-eng">
+        There is a whole family of capacitors that use a polymer film as a dielectric, with the film either sandwiched between coiled or interleaved layers of metal foil, or having a metalized layer deposited on its surface. These capacitors can have a voltage rating in the region of 1000V but are not available with high capacitances, you will find them from about 100pF to single-figures µF. Each different polymer dielectric used has its own properties that lend it strengths and weaknesses, however the whole family of capacitors feature a lower equivalent series capacitance and inductance than the electrolytic capacitors we’ve discussed so far. You will thus see them used in higher frequency applications and supply decoupling in electrically noisy environments as well as in general purpose applications.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+        <b>Polypropylene</b> capacitors are used in circuits that require good temperature and frequency stability. You will also find them used in mains suppression and other power circuits, in specially rated versions for high voltage AC use.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+      <b>Polyester</b> capacitors do not possess the temperature and frequency characteristics of polypropylene, however they are cheap and can withstand the elevated temperatures of SMD soldering. You will thus find them used as general purpose capacitors in non-critical applications.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+<b>Polyethylene</b> naphthalate capacitors yet again do not have stable temperature and frequency characteristics, but they can withstand much higher temperatures and voltages than polyester.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+<b>Polyphenylene</b> sulphide capacitors possess all the temperature and frequency stability of polypropylene with the bonus of being able to withstand high temperatures.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+You may also encounter <b>polycarbonate</b> and <b>polystyrene</b> capacitors in older equipment, however these two dielectrics are not commonly used today.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+<h2>CERAMIC</h2>
+
+    <p class="source-eng">
+Ceramic capacitors have a long history, you will find them in equipment made from the present day back to the early decades of the last century. Earlier ceramic capacitors were a single layer of ceramic metalized on either side, while more recent examples also include mutilayer designs in which alternate layers of metalization and ceramic are built up to form an interleaving set of plates. They are available depending on the dielectric used with capacitances from 1pf into the tens of µF, and with voltages into the kilovolts. You will find single layer ceramic discs and multilayer ceramic surface-mount packages used in multiple small-capacitance applications across all areas of electronics.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+When looking at ceramic capacitors it is best to consider them by the ceramic dielectric used, as it is from these that they derive their properties. Ceramic dielectrics are classified with a three-letter code denoting their temperature range and temperature stability, and it is by these codes that we’ll refer to the most common ones here.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+C0G dielectrics have the best stability of capacitance with respect to temperature, frequency, and voltage. You will find C0G capacitors used in resonant high frequency and other high performance circuits.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+X7R dielectrics do not share the temperature or voltage characteristics of C0G, and thus are used in less critical applications. You will typically find them used for decoupling and general purpose applications.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+Y5V dielectrics give a much higher capacitance than X7R, but with worse temperature characteristics and a lower maximum voltage. Like X7R you will find them in general purpose and decoupling circuits.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+Since ceramics are often also piezoelectric, some ceramic capacitors also exhibit microphony. If you work with high voltages and audible frequencies, for example in the world of tube amplifiers or electrostatics, you may sometimes be able to hear this effect in action, as a capacitor may “sing”. If you use a piezoelectric capacitor to provide frequency stability you may thus find it is modulated by the vibration of its environment.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+    <p class="source-eng">
+As we stated earlier, this article does not attempt to cover all capacitor technologies. A quick glance at an electronic supplies catalogue will show you several technologies not mentioned here, and there are multiple others that are obsolete or whose niche is so tiny that you will rarely see them. Instead what we hope to have achieved is to have demystified some of the common types you may see, and aided you in your selection when you produce your own designs. If we’ve whetted your appetite for more component rundowns, perhaps we can draw your attention to our piece on inductors.
+      </p>
+    <p class="trans-kor">
+
+    </p>
+
+    <ul class="voca">
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+      <li>
+    </ul>
+
+
+  </body>
+</html>
